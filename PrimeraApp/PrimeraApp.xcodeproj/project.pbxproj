@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D93935572335353500338B93 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93935562335353500338B93 /* Student.swift */; };
+		D93935592335471000338B93 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93935582335471000338B93 /* Teacher.swift */; };
+		D939355B2335476200338B93 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D939355A2335476200338B93 /* Subject.swift */; };
 		D9ACFB7023351EAF0020AAB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ACFB6F23351EAF0020AAB4 /* AppDelegate.swift */; };
 		D9ACFB7223351EAF0020AAB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ACFB7123351EAF0020AAB4 /* ViewController.swift */; };
 		D9ACFB7523351EAF0020AAB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9ACFB7323351EAF0020AAB4 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		D93935562335353500338B93 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		D93935582335471000338B93 /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		D939355A2335476200338B93 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		D9ACFB6C23351EAF0020AAB4 /* PrimeraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9ACFB6F23351EAF0020AAB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9ACFB7123351EAF0020AAB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				D93935562335353500338B93 /* Student.swift */,
+				D93935582335471000338B93 /* Teacher.swift */,
+				D939355A2335476200338B93 /* Subject.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -210,6 +216,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D93935592335471000338B93 /* Teacher.swift in Sources */,
+				D939355B2335476200338B93 /* Subject.swift in Sources */,
 				D9ACFB7223351EAF0020AAB4 /* ViewController.swift in Sources */,
 				D93935572335353500338B93 /* Student.swift in Sources */,
 				D9ACFB7023351EAF0020AAB4 /* AppDelegate.swift in Sources */,
