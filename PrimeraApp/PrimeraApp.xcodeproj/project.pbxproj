@@ -35,6 +35,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D939354B23352B1A00338B93 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D9ACFB7B23351EB00020AAB4 /* Info.plist */,
+				D9ACFB6F23351EAF0020AAB4 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D939354C23352B7C00338B93 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D939354D23352B9100338B93 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D9ACFB7623351EB00020AAB4 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D939354E23352BE300338B93 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D939354F23352BEF00338B93 /* Views */,
+				D939355023352BF600338B93 /* Controllers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D939354F23352BEF00338B93 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D939355323352C7000338B93 /* Storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D939355023352BF600338B93 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9ACFB7123351EAF0020AAB4 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D939355323352C7000338B93 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D9ACFB7323351EAF0020AAB4 /* Main.storyboard */,
+				D9ACFB7823351EB00020AAB4 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		D9ACFB6323351EAF0020AAB4 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +112,10 @@
 		D9ACFB6E23351EAF0020AAB4 /* PrimeraApp */ = {
 			isa = PBXGroup;
 			children = (
-				D9ACFB6F23351EAF0020AAB4 /* AppDelegate.swift */,
-				D9ACFB7123351EAF0020AAB4 /* ViewController.swift */,
-				D9ACFB7323351EAF0020AAB4 /* Main.storyboard */,
-				D9ACFB7623351EB00020AAB4 /* Assets.xcassets */,
-				D9ACFB7823351EB00020AAB4 /* LaunchScreen.storyboard */,
-				D9ACFB7B23351EB00020AAB4 /* Info.plist */,
+				D939354B23352B1A00338B93 /* App */,
+				D939354D23352B9100338B93 /* Resources */,
+				D939354C23352B7C00338B93 /* Data */,
+				D939354E23352BE300338B93 /* UI */,
 			);
 			path = PrimeraApp;
 			sourceTree = "<group>";
