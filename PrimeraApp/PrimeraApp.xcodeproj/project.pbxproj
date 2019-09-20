@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D93935572335353500338B93 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93935562335353500338B93 /* Student.swift */; };
 		D9ACFB7023351EAF0020AAB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ACFB6F23351EAF0020AAB4 /* AppDelegate.swift */; };
 		D9ACFB7223351EAF0020AAB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ACFB7123351EAF0020AAB4 /* ViewController.swift */; };
 		D9ACFB7523351EAF0020AAB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9ACFB7323351EAF0020AAB4 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D93935562335353500338B93 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		D9ACFB6C23351EAF0020AAB4 /* PrimeraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9ACFB6F23351EAF0020AAB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9ACFB7123351EAF0020AAB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 		D939354C23352B7C00338B93 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				D9393554233532AC00338B93 /* Local */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -91,6 +94,22 @@
 				D9ACFB7823351EB00020AAB4 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		D9393554233532AC00338B93 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				D9393555233532BA00338B93 /* Models */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		D9393555233532BA00338B93 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D93935562335353500338B93 /* Student.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		D9ACFB6323351EAF0020AAB4 = {
@@ -192,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9ACFB7223351EAF0020AAB4 /* ViewController.swift in Sources */,
+				D93935572335353500338B93 /* Student.swift in Sources */,
 				D9ACFB7023351EAF0020AAB4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,7 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PrimeraApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PrimeraApp/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,7 +376,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PrimeraApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PrimeraApp/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
