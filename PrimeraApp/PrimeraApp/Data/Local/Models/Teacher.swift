@@ -46,6 +46,7 @@ class  Teacher: Hashable, CustomStringConvertible {
     var email: String?
     var type: TeacherType?
     
+    //Método de CustomStringConvertible
     var description: String {
         return "\(String(describing: name))"
     }

@@ -16,7 +16,7 @@ class Student: CustomStringConvertible {
     var email: String?
     var birthdate: Date?
     
-    //Use description to print this class with custom string format
+    //Use description to print this class with custom string format. Método de CustomStringConvertible
     var description: String {
         return "\(String(describing: name)) \(String(describing:email))"
     }

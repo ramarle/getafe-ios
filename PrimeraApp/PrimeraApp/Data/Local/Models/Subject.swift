@@ -24,6 +24,7 @@ class Subject: CustomStringConvertible {
         return students.count
     }
     
+    //Método de CustomStringConvertible
     var description: String {
         return "\(String(describing: name))"
     }
