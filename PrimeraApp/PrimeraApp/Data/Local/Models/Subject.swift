@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Subject {
+class Subject: CustomStringConvertible {
     
     var name: String?
     
@@ -22,6 +22,10 @@ class Subject {
     }
     var numStudent: Int {
         return students.count
+    }
+    
+    var description: String {
+        return "\(String(describing: name))"
     }
     
     //Cuando hay que passar parámetros al constructor mejor crear un convinience init y no sobreescribir el init

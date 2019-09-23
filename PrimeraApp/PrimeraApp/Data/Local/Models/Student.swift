@@ -10,6 +10,7 @@ import Foundation
 
 class Student: CustomStringConvertible {
    
+    //MARK: Properties
     //Optinal variables
     var name: String?
     var email: String?
