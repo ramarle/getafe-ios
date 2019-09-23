@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D912AECE23391539007E74C1 /* DefaultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D912AECD23391539007E74C1 /* DefaultData.swift */; };
 		D93935572335353500338B93 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93935562335353500338B93 /* Student.swift */; };
 		D93935592335471000338B93 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93935582335471000338B93 /* Teacher.swift */; };
 		D939355B2335476200338B93 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D939355A2335476200338B93 /* Subject.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D912AECD23391539007E74C1 /* DefaultData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultData.swift; sourceTree = "<group>"; };
 		D93935562335353500338B93 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		D93935582335471000338B93 /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
 		D939355A2335476200338B93 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				D9393555233532BA00338B93 /* Models */,
+				D912AECD23391539007E74C1 /* DefaultData.swift */,
 			);
 			path = Local;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				D93935592335471000338B93 /* Teacher.swift in Sources */,
 				D939355B2335476200338B93 /* Subject.swift in Sources */,
 				D9ACFB7223351EAF0020AAB4 /* ViewController.swift in Sources */,
+				D912AECE23391539007E74C1 /* DefaultData.swift in Sources */,
 				D93935572335353500338B93 /* Student.swift in Sources */,
 				D9ACFB7023351EAF0020AAB4 /* AppDelegate.swift in Sources */,
 			);
