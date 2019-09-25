@@ -10,7 +10,7 @@ import UIKit
 
 class StudentsTableViewCell: UITableViewCell {
     
-    //MARK: Defined outlets
+    
     @IBOutlet weak var mView: UIView!
     @IBOutlet weak var mImageView: UIImageView!
     @IBOutlet weak var mLabelName: UILabel!
@@ -26,7 +26,7 @@ class StudentsTableViewCell: UITableViewCell {
     
     func configureCell (student: Student){
         
-        //TODO: Add student Image
+        mImageView.image = UIImage(named: student.avatar ?? "")
         mLabelName.text = student.name
         mLabelEmail.text = student.email
     }

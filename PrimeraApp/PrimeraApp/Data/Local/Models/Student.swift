@@ -15,6 +15,7 @@ class Student: CustomStringConvertible {
     var name: String?
     var email: String?
     var birthdate: Date?
+    var avatar: String?
     
     //Use description to print this class with custom string format. Método de CustomStringConvertible
     var description: String {
@@ -22,11 +23,12 @@ class Student: CustomStringConvertible {
     }
     
     //Cuando hay que passar parámetros al constructor mejor crear un convinience init y no sobreescribir el init
-    convenience init (name: String, email: String? = nil, bithdate: Date? = nil){
+    convenience init (name: String, email: String? = nil, bithdate: Date? = nil, avatar: String? = nil){
         self.init ()
         
         self.name = name
         self.email = email
         self.birthdate = bithdate
+        self.avatar = avatar
     }
 }

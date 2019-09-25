@@ -41,7 +41,7 @@ extension StudentsViewController: UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         //Definimos la celda dekl tipo studenViewCell y con el indexPath sabemos cuál es
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "StudenViewCell", for: indexPath) as? StudentsTableViewCell else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "StudentsTableViewCell", for: indexPath) as? StudentsTableViewCell else {
             return UITableViewCell()
         }
         

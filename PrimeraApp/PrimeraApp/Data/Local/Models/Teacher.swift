@@ -45,6 +45,7 @@ class  Teacher: Hashable, CustomStringConvertible {
     var name: String?
     var email: String?
     var type: TeacherType?
+    var avatar: String?
     
     //Método de CustomStringConvertible
     var description: String {
@@ -52,11 +53,12 @@ class  Teacher: Hashable, CustomStringConvertible {
     }
     
     //Cuando hay que passar parámetros al constructor mejor crear un convinience init y no sobreescribir el init
-    convenience init (name: String, email: String? = nil, type: TeacherType? = nil) {
+    convenience init (name: String, email: String? = nil, type: TeacherType? = nil, avatar: String? = nil) {
         self.init()
         
         self.name = name
         self.email = email
         self.type = type
+        self.avatar = avatar
     }
 }

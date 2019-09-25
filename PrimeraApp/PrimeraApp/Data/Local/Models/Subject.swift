@@ -15,6 +15,7 @@ class Subject: CustomStringConvertible {
     //Es mejor inicializar listas de datos para evitar tener que comprobar si es nil
     var teachers: [Teacher] = []
     var students: [Student] = []
+    var logo: String?
     
     //Variables computadas/autocalculadas. Al acceder al valor de la variable se ejecuta ese bloque de código, las variables no almacén valor, al acceder a ellas se calculan cada vez
     var numTeacher: Int {
@@ -30,11 +31,12 @@ class Subject: CustomStringConvertible {
     }
     
     //Cuando hay que passar parámetros al constructor mejor crear un convinience init y no sobreescribir el init
-    convenience init(name: String, teachers: [Teacher] = [], students: [Student] = []) {
+    convenience init(name: String, teachers: [Teacher] = [], students: [Student] = [], logo: String? = nil) {
         self.init()
         
         self.name = name
         self.teachers = teachers
         self.students = students
+        self.logo = logo
     }
 }
