@@ -16,6 +16,8 @@
 		D9ACFB7523351EAF0020AAB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9ACFB7323351EAF0020AAB4 /* Main.storyboard */; };
 		D9ACFB7723351EB00020AAB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9ACFB7623351EB00020AAB4 /* Assets.xcassets */; };
 		D9ACFB7A23351EB00020AAB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9ACFB7823351EB00020AAB4 /* LaunchScreen.storyboard */; };
+		D9F4F410233BB13C00899B7D /* StudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F4F40F233BB13C00899B7D /* StudentsViewController.swift */; };
+		D9F4F412233BD5D300899B7D /* StudentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F4F411233BD5D300899B7D /* StudentsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		D9ACFB7623351EB00020AAB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9ACFB7923351EB00020AAB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9ACFB7B23351EB00020AAB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F4F40F233BB13C00899B7D /* StudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsViewController.swift; sourceTree = "<group>"; };
+		D9F4F411233BD5D300899B7D /* StudentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				D9ACFB7123351EAF0020AAB4 /* ViewController.swift */,
+				D9F4F40F233BB13C00899B7D /* StudentsViewController.swift */,
+				D9F4F411233BD5D300899B7D /* StudentsTableViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -222,8 +228,10 @@
 				D93935592335471000338B93 /* Teacher.swift in Sources */,
 				D939355B2335476200338B93 /* Subject.swift in Sources */,
 				D9ACFB7223351EAF0020AAB4 /* ViewController.swift in Sources */,
+				D9F4F412233BD5D300899B7D /* StudentsTableViewCell.swift in Sources */,
 				D912AECE23391539007E74C1 /* DefaultData.swift in Sources */,
 				D93935572335353500338B93 /* Student.swift in Sources */,
+				D9F4F410233BB13C00899B7D /* StudentsViewController.swift in Sources */,
 				D9ACFB7023351EAF0020AAB4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
