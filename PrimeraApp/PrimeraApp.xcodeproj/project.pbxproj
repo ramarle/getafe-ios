@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D912AECE23391539007E74C1 /* DefaultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D912AECD23391539007E74C1 /* DefaultData.swift */; };
+		D9185C3C233D088B00E6DE79 /* TeachersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9185C3B233D088B00E6DE79 /* TeachersViewController.swift */; };
+		D9185C3E233D0ABC00E6DE79 /* TeachersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9185C3D233D0ABC00E6DE79 /* TeachersTableViewCell.swift */; };
 		D93935572335353500338B93 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93935562335353500338B93 /* Student.swift */; };
 		D93935592335471000338B93 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93935582335471000338B93 /* Teacher.swift */; };
 		D939355B2335476200338B93 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D939355A2335476200338B93 /* Subject.swift */; };
@@ -22,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		D912AECD23391539007E74C1 /* DefaultData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultData.swift; sourceTree = "<group>"; };
+		D9185C3B233D088B00E6DE79 /* TeachersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachersViewController.swift; sourceTree = "<group>"; };
+		D9185C3D233D0ABC00E6DE79 /* TeachersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachersTableViewCell.swift; sourceTree = "<group>"; };
 		D93935562335353500338B93 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		D93935582335471000338B93 /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
 		D939355A2335476200338B93 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 				D9ACFB7123351EAF0020AAB4 /* ViewController.swift */,
 				D9F4F40F233BB13C00899B7D /* StudentsViewController.swift */,
 				D9F4F411233BD5D300899B7D /* StudentsTableViewCell.swift */,
+				D9185C3B233D088B00E6DE79 /* TeachersViewController.swift */,
+				D9185C3D233D0ABC00E6DE79 /* TeachersTableViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -225,11 +231,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9185C3E233D0ABC00E6DE79 /* TeachersTableViewCell.swift in Sources */,
 				D93935592335471000338B93 /* Teacher.swift in Sources */,
 				D939355B2335476200338B93 /* Subject.swift in Sources */,
 				D9ACFB7223351EAF0020AAB4 /* ViewController.swift in Sources */,
 				D9F4F412233BD5D300899B7D /* StudentsTableViewCell.swift in Sources */,
 				D912AECE23391539007E74C1 /* DefaultData.swift in Sources */,
+				D9185C3C233D088B00E6DE79 /* TeachersViewController.swift in Sources */,
 				D93935572335353500338B93 /* Student.swift in Sources */,
 				D9F4F410233BB13C00899B7D /* StudentsViewController.swift in Sources */,
 				D9ACFB7023351EAF0020AAB4 /* AppDelegate.swift in Sources */,

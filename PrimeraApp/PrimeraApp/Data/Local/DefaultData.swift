@@ -60,18 +60,23 @@ let defaultSubjects = [Subject(name: "Android",
                                //Los ?? indican que si la izquierda es nil se devuelve la derecha
                             //$0 hace referencia a cada elemento del array
                                 teachers: defaultTeachers.filter{$0.name?.contains("u") ?? false},
-                                students: defaultStudents.filter{$0.name?.contains("a") ?? false}),
+                                students: defaultStudents.filter{$0.name?.contains("a") ?? false},
+                                logo: "img_subject_android"),
                        Subject(name: "iOS",
                                teachers: defaultTeachers.filter{$0.name?.contains("o") ?? false},
-                               students: defaultStudents.filter{$0.name?.contains("e") ?? false}),
+                               students: defaultStudents.filter{$0.name?.contains("e") ?? false},
+                               logo: "img_subject_dart"),
                        Subject(name: "JavaScript",
                                //Los ?? indican que si la izquierda es nil se devuelve la derecha
                         //$0 hace referencia a cada elemento del array
                         teachers: defaultTeachers.filter{$0.name?.contains("i") ?? false},
-                        students: defaultStudents.filter{$0.name?.contains("i") ?? false}),
+                        students: defaultStudents.filter{$0.name?.contains("i") ?? false},
+                        logo: "img_subject_ios"),
                        Subject(name: "Math",
                                teachers: defaultTeachers.filter{$0.name?.contains("e") ?? false},
-                               students: defaultStudents.filter{$0.name?.contains("o") ?? false}),
+                               students: defaultStudents.filter{$0.name?.contains("o") ?? false},
+                               logo: "img_subject_javascript"),
                        Subject(name: "English",
                                teachers: defaultTeachers.filter{$0.name?.contains("a") ?? false},
-                               students: defaultStudents.filter{$0.name?.contains("u") ?? false}) ]
+                               students: defaultStudents.filter{$0.name?.contains("u") ?? false},
+                               logo: "img_subject_python") ]
