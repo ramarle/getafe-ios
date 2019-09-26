@@ -19,8 +19,6 @@ class StudentsViewController: UIViewController {
         configureTableView()
         
     }
-
-    
 }
 
 //Con extension añadimos funcionalidades a la clase, al sacarlo fuera encapsulamos el código y en caso de cambiar el elemtno que muestra los datos sólo hay que cambiar esta parte
@@ -40,7 +38,7 @@ extension StudentsViewController: UITableViewDataSource, UITableViewDelegate{
     //Esta función se ejecuta tantas veces como el return de la función anterior
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        //Definimos la celda dekl tipo studenViewCell y con el indexPath sabemos cuál es
+        //Definimos la celda del tipo studenViewCell y con el indexPath sabemos cuál es
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "StudentsTableViewCell", for: indexPath) as? StudentsTableViewCell else {
             return UITableViewCell()
         }

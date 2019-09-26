@@ -19,9 +19,9 @@ class StudentsTableViewCell: UITableViewCell {
     //Con este método limpiamos la celda para poderla reutilizar cuando hacemos scroll
     //Hay que darle un identificar a la celda en el storyboard para poderla utilizar
     override func prepareForReuse() {
-        mImageView = nil
-        mLabelName = nil
-        mLabelEmail = nil
+        mImageView.image = nil
+        mLabelName.text = nil
+        mLabelEmail.text = nil
     }
     
     func configureCell (student: Student){
